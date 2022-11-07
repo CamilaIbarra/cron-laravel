@@ -18,7 +18,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/contact', function () {
-    Mail::to('test@email.com')->send(new Contact());
-    return view('emails.message');
-});
+// Route::get('/contact', function () {
+//     Mail::to('test@email.com')->send(new Contact());
+//     return view('emails.message');
+// });
